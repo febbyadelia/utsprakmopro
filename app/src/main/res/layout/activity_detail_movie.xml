@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetailMovieActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/geezann1"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_penulis"
+                android:layout_width="match_parent"
+                android:text="Nadhifa Allya Tsana"
+                android:gravity="center"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txt_judul"
+                android:layout_width="match_parent"
+                android:text="Geez dan Ann #1"
+                android:gravity="center"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txt_tahun"
+                android:layout_width="match_parent"
+                android:text="2017"
+                android:gravity="center"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="45px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/txt_deskripsil"
+                android:layout_width="match_parent"
+                android:text="DESKRIPSI"
+                android:gravity="center"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
